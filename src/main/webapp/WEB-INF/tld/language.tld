@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+                        "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+	<tlibversion>1.2</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>lg</shortname>
+	<uri>http://www.opendata.com.cn/tags-LanguageTag</uri>
+	<tag>
+		<name>Transform</name>
+		<tagclass>com.opendata.lg.util.LanguageTag</tagclass>
+		<bodycontent>JSP</bodycontent>
+		<attribute>
+			<name>code</name>
+			<!-- 输出类型 当type值为param 时 输入 xxx=sss  字样  当为hidden 时，则输出  <input type="hidden" name="xx" value="xxx"/> 字样 -->
+			<required>false</required>
+			<!-- 是否为必须 -->
+			<rtexprvalue>true</rtexprvalue>
+			<!-- 当rtexprvalue为true时，则使用静态值  如果为false时，则可以使用el表达式进行传递参数 如 type="${type}" -->
+		</attribute>
+	</tag>
+</taglib>

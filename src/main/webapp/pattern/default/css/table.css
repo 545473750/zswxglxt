@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 表格及表单样式 */
+
+.uiTable{border-collapse:collapse;border:1px solid #c6d4db;width:100%;line-height:2em;background:#FFF;}
+.uiTable th{border:1px solid #c6d4db;background:#e8f5fc url(../images/thbg.gif) repeat-x top;text-align:left;padding-left:10px;color:#005eac;}
+.uiTable td{border:1px solid #c6d4db;padding-left:10px;}
+.uiTable td a{text-decoration:underline;}
+.uiTable tr.jg{background:#edf6ff;}
+.uiTable tr:hover{background:#c8f6f9;}
+.uiTable td input,.uiTable td select,.uiTable td textarea{font-size:12px;}
+.uiTable th.textcen,.uiTable td.textcen{text-align:center;padding-left:0px;}
+
+.page{border:1px solid #c6d4db;border-top-width:0px;background:#d7ecff;padding:3px 12px;text-align:center;}
+.page .pageinput{font-size:11px;height:15px;width:24px;border:1px solid #cccccc;font-family:Arial;}

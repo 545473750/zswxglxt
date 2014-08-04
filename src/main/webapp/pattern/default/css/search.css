@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search{padding:15px 5px 0px 15px;min-height:40px;_height:40px;border:1px solid #cccccc;border-top-width:0px;border-bottom-color:#bedadd;}
+.search label{float:left;padding-right:15px;}
+.search input,.search select,.search textarea{font-size:12px;}
+.btn_search{background:url(../images/search_but3.gif) no-repeat left top;width:63px;height:22px;overflow:hidden;border:0px solid #FFF;display:block;line-height:100px;text-indent:100px;margin-left:10px;}
+.btn_search_over{background:url(../images/search_but_over.gif) no-repeat left top;width:63px;height:22px;overflow:hidden;border:0px solid #FFF;display:block;line-height:100px; text-indent:100px;margin-left:10px;}

@@ -1,0 +1,183 @@
+.grt {
+	COLOR: #106a00
+}
+A.gra {
+	COLOR: #106a00
+}
+A.gra:visited {
+	COLOR: #106a00
+}
+.nowrap1 {
+	TEXT-OVERFLOW: clip; WHITE-SPACE: nowrap; OVERFLOW: hidden; WORD-BREAK: keep-all
+}
+.nowrap2 {
+	TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; OVERFLOW: hidden; WORD-BREAK: keep-all; -o-text-overflow: ellipsis
+}
+.wbr {
+	WORD-WRAP: break-word; WORD-BREAK: break-all
+}
+.portalstat {
+	MARGIN: 6px; PADDING-LEFT: 136px
+}
+.portalstat_avatar {
+	WIDTH: 122px; FLOAT: left; MARGIN-LEFT: -136px
+}
+* HTML .portalstat_avatar {
+	ZOOM: 1; DISPLAY: inline
+}
+.useravater {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; WIDTH: 108px; PADDING-RIGHT: 10px; BACKGROUND: url(../images/portal/portalavatar_bg.gif) no-repeat; HEIGHT: 108px; PADDING-TOP: 4px
+}
+.useravater SPAN {
+	WIDTH: 108px; DISPLAY: block; HEIGHT: 108px; OVERFLOW: hidden
+}
+.portalstat_setting {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px
+}
+.portalstat_setting SPAN {
+	FLOAT: left
+}
+.portalstat_setting EM {
+	FLOAT: left
+}
+.portalstat_setting SPAN {
+	PADDING-LEFT: 30px; FLOAT: left; MARGIN-RIGHT: 5px
+}
+.portalstat_setting SPAN A {
+	COLOR: #2c629e
+}
+.portalstat_setting SPAN A:visited {
+	COLOR: #2c629e
+}
+.portalstat_setting SPAN A:hover {
+	COLOR: #2c629e
+}
+.portalstat_setting EM {
+	LINE-HEIGHT: 0; MARGIN-TOP: 9px; WIDTH: 12px; DISPLAY: block; BACKGROUND: url(../images/com.gif) no-repeat 0px -188px; HEIGHT: 12px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.portalstat_data {
+	WIDTH: 100%; FLOAT: left
+}
+.portalstat_title {
+	BORDER-BOTTOM: #f1f1f1 1px solid; HEIGHT: 30px
+}
+.portalauthor {
+	LINE-HEIGHT: 30px; FLOAT: left; COLOR: #2c629e; FONT-SIZE: 14px; FONT-WEIGHT: 700; MARGIN-RIGHT: 5px
+}
+.portalauthor A {
+	COLOR: #2c629e; FONT-SIZE: 14px; FONT-WEIGHT: 700
+}
+.portalauthor A:visited {
+	COLOR: #2c629e
+}
+.portalauthor A:hover {
+	COLOR: #2c629e
+}
+.portalstar {
+	MARGIN-TOP: 8px; DISPLAY: block; FLOAT: left; HEIGHT: 14px
+}
+.portalsetbtn {
+	MARGIN-TOP: 8px; PADDING-LEFT: 20px; DISPLAY: block; BACKGROUND: url(../images/home.gif) no-repeat left center; FLOAT: right; HEIGHT: 14px
+}
+.portal_note {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.portal_note LI {
+	LINE-HEIGHT: 18px; COLOR: #999
+}
+.portal_note LI SPAN {
+	COLOR: #2c629e
+}
+.mood_form {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.mood_mystatus {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 18px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.face {
+	MARGIN: 0px 1px; VERTICAL-ALIGN: middle
+}
+.statusinput {
+	WIDTH: 146px; BACKGROUND: url(../images/portal/statusinput.gif) no-repeat; HEIGHT: 33px; OVERFLOW: hidden
+}
+.mood_message {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: -1px 0px 0px -1px; PADDING-LEFT: 10px; WIDTH: 138px; FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 33px; COLOR: #999; FONT-SIZE: 14px; BORDER-LEFT-WIDTH: 0px
+}
+* HTML .mood_message {
+	ZOOM: 1; DISPLAY: inline
+}
+.statusinput TEXTAREA {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT-STYLE: none
+}
+.tasklist {
+	MARGIN: 5px 10px
+}
+.tasklist_title {
+	BORDER-BOTTOM: #028e20 1px solid; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.tasklist_title H3 {
+	FLOAT: right
+}
+.tasklist UL {
+	PADDING-TOP: 4px
+}
+.tasklist UL LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 20px; PADDING-RIGHT: 5px; BACKGROUND: url(../images/portal/task_ico.gif) no-repeat left center; HEIGHT: 25px; PADDING-TOP: 0px
+}
+.tasklist LI SPAN {
+	FLOAT: right
+}
+.tasklist LI A {
+	FONT-SIZE: 14px; TEXT-DECORATION: underline
+}
+.tasklist LI A:hover {
+	TEXT-DECORATION: none
+}
+.tasklist P {
+	TEXT-ALIGN: right; LINE-HEIGHT: 20px
+}
+.widgetlist {
+	MARGIN: 5px 10px
+}
+.widgetlist UL {
+	PADDING-TOP: 5px
+}
+.widgetlist LI {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 22px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 25px; FONT-SIZE: 14px
+}
+.widgetlist LI SPAN {
+	FLOAT: right
+}
+.widgetlist LI EM {
+	FONT-STYLE: normal
+}
+.widgetlist P {
+	TEXT-ALIGN: right; LINE-HEIGHT: 24px
+}
+.announcement LI {
+	BACKGROUND-IMAGE: url(../images/portal/speaker.gif)
+}
+.edumanage LI {
+	BACKGROUND-IMAGE: url(../images/portal/edumanage.gif)
+}
+.elplans LI {
+	BACKGROUND-IMAGE: url(../images/portal/elplans.gif)
+}
+.mymessage LI {
+	BACKGROUND-IMAGE: url(../images/portal/message.gif)
+}
+.kebiao {
+	TEXT-ALIGN: center; BORDER-COLLAPSE: collapse; COLOR: #000; WORD-BREAK: break-all
+}
+.kebiao TH {
+	BORDER-BOTTOM: #acd98c 1px solid; BORDER-LEFT: #acd98c 1px solid; LINE-HEIGHT: 18px; BACKGROUND: #fff4d1; COLOR: #285100; BORDER-TOP: #acd98c 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #acd98c 1px solid
+}
+.kebiao TD {
+	BORDER-BOTTOM: #acd98c 1px solid; BORDER-LEFT: #acd98c 1px solid; LINE-HEIGHT: 16px; BORDER-TOP: #acd98c 1px solid; BORDER-RIGHT: #acd98c 1px solid
+}
+.t_color {
+	COLOR: #285100
+}
+.line_center {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 3px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff4d1; HEIGHT: 3px; FONT-SIZE: 0px; PADDING-TOP: 0px
+}
